@@ -8,7 +8,6 @@
 }
 
 .skills-wrapper {
-	max-width: 800px;
 	margin: 0 auto;
 }
 
@@ -91,6 +90,6 @@
 
     .skills-item {
         margin-bottom: 25px;
-        font-size: 24px;
+        font-size: 22px;
     }
 }

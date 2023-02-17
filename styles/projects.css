@@ -1,0 +1,38 @@
+.projects-title {
+    font-size: 32px;
+    color: var(--accent-color);
+    text-indent: 5%;
+}
+
+.projects-img-quote {
+    float: right;
+}
+
+.projects-img {
+    transition: all 0.2s ease-in-out;
+}
+
+.projects-img:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 767px) {
+    .projects-subtitle {
+        padding: 0 2%;
+    }
+    
+    .projects-img-quote {
+        float: none;
+    }
+    
+    .projects-img {
+        display: block;
+        margin: 0 auto;
+        width: 360px;
+    }
+
+    .projects-img:hover {
+        transform: scale(1);
+    }
+}
