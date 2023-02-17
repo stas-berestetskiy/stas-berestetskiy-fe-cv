@@ -4,10 +4,6 @@
     text-indent: 5%;
 }
 
-.projects-img-quote {
-    float: right;
-}
-
 .projects-img {
     transition: all 0.2s ease-in-out;
 }
@@ -15,6 +11,11 @@
 .projects-img:hover {
     transform: scale(1.05);
     transition: all 0.2s ease-in-out;
+}
+
+.projects-link-quote {
+    display: flex;
+    justify-content: flex-end;
 }
 
 @media (max-width: 767px) {
@@ -34,5 +35,9 @@
 
     .projects-img:hover {
         transform: scale(1);
+    }
+
+    .projects-link-quote {
+        display: block;
     }
 }
