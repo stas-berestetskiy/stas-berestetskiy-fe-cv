@@ -81,6 +81,8 @@
 .greeting-photo {
 	display: block;
 	margin: 0 auto;
+	box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.4);
+	border-radius: 50%;
 }
 
 .greeting-text-wrapper {
@@ -168,17 +170,20 @@
 		margin-bottom: 10px;
 		font-weight: 700;
 		font-size: 32px;
+		padding: 0 2%;
 	}
-	
+
 	.greeting-title {
 		font-weight: 700;
 		font-size: 36px;
+		padding: 0 2%;
 	}
-	
+
 	.greeting-text-wrapper p {
 		text-align: center;
 		text-indent: 0;
 		font-weight: 700;
 		font-size: 20px;
+		padding: 0 2%;
 	}
 }
