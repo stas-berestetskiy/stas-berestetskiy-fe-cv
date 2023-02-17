@@ -1,6 +1,9 @@
 .header {
 	width: 100vw;
 	height: 50px;
+	position: fixed;
+	background: var(--secondary-color);
+	z-index: 1000;
 }
 
 .header-wrapper {

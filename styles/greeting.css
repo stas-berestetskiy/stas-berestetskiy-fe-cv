@@ -1,0 +1,128 @@
+.greeting {
+	padding-top: 100px;
+}
+
+.greeting-wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.greeting-item-link {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	border-width: 20px;
+	transition: all 0.2s ease-in-out;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.greeting-item-link-wrapper-cv {
+	animation: iconsFlow 2s ease-in-out -1s infinite alternate both;
+}
+
+.greeting-item-link-wrapper-li {
+	animation: iconsFlow 2s ease-in-out -2s infinite alternate both;
+}
+
+.greeting-item-link-wrapper-tg {
+	animation: iconsFlow 2s ease-in-out -3s infinite alternate both;
+}
+
+.greeting-item-link-wrapper-gm {
+	animation: iconsFlow 2s ease-in-out -4s infinite alternate both;
+}
+
+.cv-link {
+	top: -200px;
+	left: 0;
+	background: rgba(184, 186, 197);
+	border: 10px solid rgba(184, 186, 197, 0.85);
+}
+
+.linkedin-link {
+	top: -100px;
+	left: -100px;
+	background: rgba(145, 202, 232, 0.5);
+	border: 10px solid rgba(145, 202, 232, 0.5);
+}
+
+.telegram-link {
+	top: -160px;
+	left: 90px;
+	background: rgba(193, 218, 225);
+	border: 10px solid rgba(193, 218, 225, 0.75);
+}
+
+.gmail-link {
+	top: -80px;
+	left: 0;
+	background: rgba(188, 149, 147);
+	border: 10px solid rgba(188, 149, 147, 0.69);
+}
+
+.greeting-item-link:hover {
+	border-width: 40px;
+	transition: all 0.2s ease-in-out;
+}
+
+@keyframes iconsFlow {
+	0% {
+		transform: translateY(-10px);
+	}
+
+	100% {
+		transform: translateY(10px);
+	}
+}
+
+.greeting-photo {
+	display: block;
+	margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+	.greeting {
+		padding-top: 100px;
+	}
+
+	.greeting-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 8%;
+		margin-top: 50px;
+	}
+
+	.greeting-item-link {
+		position: relative;
+	}
+
+	.greeting-item-icon {
+		position: relative;
+	}
+
+	.greeting-item-link-wrapper {
+		position: relative;
+		display: flex;
+		animation: none;
+	}
+
+	.greeting-item-link {
+		position: relative;
+		top: 0;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 20%;
+		border-width: 10px;
+		transform: none;
+	}
+
+	.greeting-item-link:hover {
+		border-width: 10px;
+	}
+}
