@@ -58,28 +58,28 @@
 }
 
 @media (max-width: 767px) {
-    .experience-company {
-        font-weight: 700;
-        font-size: 36px;
-        padding: 2%;
-    }
-    
-    .experience-time {
-        padding: 2%;
-    }
+	.experience-company {
+		font-weight: 700;
+		font-size: 36px;
+		padding: 2%;
+	}
 
-    .experience-title {
-        font-size: 22px;
-        margin-left: 2%;
-    }
-    
-    .experience-title-summary {
-        font-size: 22px;
-        margin-left: 4%;
-    }
-    
-    .experience-title-item {
-        font-size: 18px;
-        margin-left: 4%;
-    }
+	.experience-time {
+		padding: 2%;
+	}
+
+	.experience-title {
+		font-size: 22px;
+		margin-left: 2%;
+	}
+
+	.experience-title-summary {
+		font-size: 22px;
+		margin-left: 4%;
+	}
+
+	.experience-title-item {
+		font-size: 18px;
+		margin-left: 4%;
+	}
 }
