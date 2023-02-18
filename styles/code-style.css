@@ -1,0 +1,46 @@
+.code-style-head {
+	font-size: 32px;
+	color: var(--accent-color);
+	text-indent: 5%;
+}
+
+.code-block {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 135.9%;
+    margin: 0 10%;
+}
+
+.function {
+	color: #b45e89;
+}
+
+.method {
+	color: #78bb5b;
+}
+
+.variable {
+	color: #e7ce45;
+}
+
+.quote {
+	color: #3ab4d7;
+}
+
+.intend {
+	padding-left: 10px;
+}
+
+@media (max-width: 767px) {
+    .code-block {
+        font-size: 19px;
+    }
+
+    .media-indent {
+        padding-left: 10px;
+    }
+
+    .code-style-subtitle {
+		padding: 2%;
+	}
+}

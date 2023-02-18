@@ -59,6 +59,7 @@
 		<link rel="stylesheet" href="styles/skills.css" />
 		<link rel="stylesheet" href="styles/projects.css" />
 		<link rel="stylesheet" href="styles/experience.css" />
+		<link rel="stylesheet" href="styles/code-style.css" />
 		<title>Stas Berestetskiy</title>
 	</head>
 	<body>
@@ -88,7 +89,9 @@
 								>
 							</li>
 							<li class="header-item">
-								<a href="#" class="header-link">code style</a>
+								<a href="#code-style" class="header-link"
+									>code style</a
+								>
 							</li>
 							<li class="header-item">
 								<a href="#" class="header-link">education</a>
@@ -369,6 +372,36 @@
 							<div class="experience-lang-level">Fluent</div>
 						</div>
 					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="code-style" id="code-style">
+			<div class="container">
+				<h3 class="code-style-subtitle subtitle">My code style</h3>
+				<h2 class="code-style-head">Code Examples</h2>
+				<div class="code-block">
+					<span class="function">function</span>
+					<span class="method">explode</span>(<span class="variable"
+						>s</span
+					>) {<br />
+					<span class="function intend">const</span> array = s.<span
+						class="method"
+						>split</span
+					>(<span class="quote">' '</span>);<br />
+					<span class="function intend">let</span> result =
+					array.<span class="method">map</span>(<span class="variable"
+						>number</span
+					>
+					=> <span class="media-indent">number</span>.<span class="method">repeat</span>(<span
+						class="variable"
+						>parseInt</span
+					>(number)));<br />
+					<span class="function intend">return</span> result.<span
+						class="method"
+						>join</span
+					>(<span class="quote">' '</span>);<br />
+					}
 				</div>
 			</div>
 		</section>
