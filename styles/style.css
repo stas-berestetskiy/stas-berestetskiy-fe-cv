@@ -5,6 +5,10 @@
 	--secondary-color: #23314a;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	position: relative;
 	background: var(--secondary-color);
@@ -21,7 +25,8 @@ a {
 }
 
 section {
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
+	padding-top: 50px;
 }
 
 .container {
