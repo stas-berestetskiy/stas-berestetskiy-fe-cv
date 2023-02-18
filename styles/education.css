@@ -1,0 +1,53 @@
+.education-head {
+	font-size: 32px;
+	color: var(--accent-color);
+	text-indent: 5%;
+}
+
+table {
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+td,
+th {
+	text-align: left;
+	padding: 30px;
+	font-size: 18px;
+}
+
+tr {
+	margin-bottom: 10px;
+	border-bottom: 10px solid var(--accent-color);
+	border-radius: 10%;
+}
+
+th {
+	width: 25%;
+}
+
+@media (max-width: 767px) {
+	.education-subtitle {
+		padding: 2%;
+	}
+
+	td,
+	th {
+		padding: 10px;
+		font-size: 12px;
+	}
+
+	table {
+		width: 90%;
+		margin: 0 auto;
+		table-layout: fixed;
+		border-collapse: collapse;
+	}
+
+    tr {
+        margin-bottom: 10px;
+        border-bottom: 5px solid var(--accent-color);
+        border-radius: 10%;
+    }
+}
