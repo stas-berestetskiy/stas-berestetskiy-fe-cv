@@ -53,6 +53,7 @@
 			referrerpolicy="no-referrer"
 		/>
 		<!-- Styles -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<link rel="stylesheet" href="styles/style.css" />
 		<link rel="stylesheet" href="styles/header.css" />
 		<link rel="stylesheet" href="styles/greeting.css" />
@@ -65,7 +66,7 @@
 		<title>Stas Berestetskiy</title>
 	</head>
 	<body>
-		<section class="header">
+		<section class="header" data-aos="fade-down" data-aos-duration="1000">
 			<div class="container">
 				<div class="header-wrapper">
 					<div class="header-text">stas berestetskiy</div>
@@ -112,6 +113,8 @@
 					class="greeting-photo"
 					src="assets/stas_photo.png"
 					alt="sb_photo"
+					data-aos="zoom-in"
+					data-aos-duration="1000"
 				/>
 				<div class="greeting-wrapper">
 					<div
@@ -121,6 +124,9 @@
 							target="_blank"
 							href="assets/stanislav_berestetskiy_cv.pdf"
 							class="greeting-item-link cv-link"
+							data-aos="zoom-in"
+							data-aos-duration="1000"
+							data-aos-delay="200"
 							><img
 								src="assets/icons/cv.svg"
 								alt="cv"
@@ -134,6 +140,9 @@
 							target="_blank"
 							href="https://www.linkedin.com/in/stanislav-berestetskiy/"
 							class="greeting-item-link linkedin-link"
+							data-aos="zoom-in"
+							data-aos-duration="1000"
+							data-aos-delay="400"
 							><img
 								src="assets/icons/linkedin.svg"
 								alt="linkedin"
@@ -147,6 +156,9 @@
 							target="_blank"
 							href="https://t.me/BerStas"
 							class="greeting-item-link telegram-link"
+							data-aos="zoom-in"
+							data-aos-duration="1000"
+							data-aos-delay="600"
 							><img
 								src="assets/icons/telegram.svg"
 								alt="telegram"
@@ -160,6 +172,9 @@
 							target="_blank"
 							href="mailto:stasberestetskiy@gmail.com"
 							class="greeting-item-link gmail-link"
+							data-aos="zoom-in"
+							data-aos-duration="1000"
+							data-aos-delay="800"
 							><img
 								src="assets/icons/gmail.svg"
 								alt="gmail"
@@ -168,22 +183,54 @@
 					</div>
 				</div>
 				<div class="greeting-text-wrapper">
-					<h2 class="greeting-name">
+					<h2
+						class="greeting-name"
+						data-aos="fade-up"
+						data-aos-duration="1000"
+						data-aos-delay="200"
+					>
 						Hi I'm <span>Stanislav</span> 👋
 					</h2>
-					<h1 class="greeting-title">JavaScript Developer</h1>
-					<p class="greeting-text-item">
+					<h1
+						class="greeting-title"
+						data-aos="fade-up"
+						data-aos-duration="1000"
+						data-aos-delay="400"
+					>
+						JavaScript Developer
+					</h1>
+					<p
+						class="greeting-text-item"
+						data-aos="fade-up"
+						data-aos-duration="1000"
+						data-aos-delay="500"
+					>
 						I am a Junior Front End Developer with IT project
 						management experience.
 					</p>
-					<p class="greeting-text-item">
+					<p
+						class="greeting-text-item"
+						data-aos="fade-up"
+						data-aos-duration="1000"
+						data-aos-delay="600"
+					>
 						I had 4+ years’ experience in IT field.
 					</p>
-					<p class="greeting-text-item">
+					<p
+						class="greeting-text-item"
+						data-aos="fade-up"
+						data-aos-duration="1000"
+						data-aos-delay="700"
+					>
 						Proficient in requirement analysis, strategic planning
 						and communications.
 					</p>
-					<p class="greeting-text-item">
+					<p
+						class="greeting-text-item"
+						data-aos="fade-up"
+						data-aos-duration="1000"
+						data-aos-delay="800"
+					>
 						Managing full cycle self studying along with 2 jobs and
 						still on.
 					</p>
@@ -193,7 +240,12 @@
 
 		<section class="skills" id="skills">
 			<div class="container">
-				<div class="skills-wrapper content-block">
+				<div
+					class="skills-wrapper content-block"
+					data-aos="fade-up"
+					data-aos-duration="1000"
+					data-aos-delay="1000"
+				>
 					<h3 class="skills-subtitle subtitle">Why hire me</h3>
 					<div class="skills-line"></div>
 					<h2 class="skills-title">Hard Skills</h2>
@@ -246,6 +298,9 @@
 						src="assets/projects/calc.png"
 						alt="calculator"
 						class="projects-img-calc projects-img"
+						data-aos="fade-left"
+						data-aos-duration="1000"
+						data-aos-delay="200"
 					/>
 				</a>
 				<a
@@ -257,6 +312,9 @@
 						src="assets/projects/quote.png"
 						alt="quote"
 						class="projects-img-quote projects-img"
+						data-aos="fade-left"
+						data-aos-duration="1000"
+						data-aos-delay="400"
 					/>
 				</a>
 			</div>
@@ -432,7 +490,7 @@
 					<tr>
 						<td>2021</td>
 						<td>Completed Course</td>
-						<td>Web Dev  by Ivan P.</td>
+						<td>Web Dev by Ivan P.</td>
 						<td>Udemy</td>
 					</tr>
 					<tr>
@@ -454,11 +512,20 @@
 		<footer class="footer" id="footer">
 			<div class="container">
 				<div class="footer-wrapper">
-					<div class="footer-text-item">2023 by Stanislav Berestetskiy</div>
-					<div class="footer-text-item">stasberestetskiy@gmail.com</div>
+					<div class="footer-text-item">
+						2023 by Stanislav Berestetskiy
+					</div>
+					<div class="footer-text-item">
+						stasberestetskiy@gmail.com
+					</div>
 				</div>
 			</div>
 		</footer>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 		<script src="script.js"></script>
 	</body>
 </html>
